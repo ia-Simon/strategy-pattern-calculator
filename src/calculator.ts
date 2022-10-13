@@ -39,7 +39,7 @@ export class Calculator {
         console.log(`| ${this.buildHistoryPosString(padding, ++count)} ->    ${item}`);
       }
     } else {
-      console.log("| --- Empty ---");
+      console.log("| --- Vazio ---");
     }
   }
 }
